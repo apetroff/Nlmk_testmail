@@ -1,0 +1,10 @@
+version: '3'
+services:
+  mail:
+    image: bytemark/smtp
+    restart: always
+    environment:
+      RELAY_HOST: mail.us.nlmk.com
+      RELAY_PORT: 587
+      RELAY_USERNAME: ao.nlmk\sergeev_yo
+      RELAY_PASSWORD: nxqqzT@IZEs
